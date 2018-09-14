@@ -12,7 +12,7 @@ public class Library {
 		String anotherArray[] = b.getChapters();
 		
 		System.out.println("There are " + anotherArray.length + " chapters.");
-		System.out.println(anotherArray);
+		System.out.println(java.util.Arrays.toString(anotherArray));
 	}
 	
     public boolean someLibraryMethod() {
